@@ -1,0 +1,272 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    font-family: 'Alegreya', serif;
+}
+
+h1 {
+    color: #A10559;
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.container-fluid {
+    padding: 3% 0 5% 10%;
+}
+
+hr {
+    border-bottom: none;
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.box-shadow {
+    border: 1px light;
+    padding: 10px;
+    box-shadow: 0 0 2px 1px;
+}
+
+/*navigation-bar*/
+.navbar {
+    opacity: 0;
+    margin-top: -150px;
+}
+
+@keyframes slide-down {
+    to {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+.navbar {
+    animation: slide-down 2s ease-in-out forwards;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+
+}
+
+/*Home section*/
+
+#home {
+    background-image: url("../images/back-image.jpeg");
+    background-size: cover;
+    background-color: #C0C0C0;
+    background-blend-mode: screen;
+    color: darkcyan;
+}
+
+.title-image {
+    border-radius: 100%;
+}
+
+h2 {
+    padding: 15px 0;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+p {
+    padding-bottom: 3px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.home-info {
+    clip-path: inset(0 0 100% 0);
+    font-family: 'Dancing Script', cursive;
+}
+
+@keyframes text-reveal {
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+.home-info {
+    animation: text-reveal 4s ease-in-out forwards;
+}
+
+/*About Me*/
+#about-me {
+    padding: 7% 15%;
+}
+
+.info {
+    margin-top: 40px;
+}
+
+.laptop-icon {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 3rem;
+}
+
+
+/*Education*/
+#education {
+    background-image: url("../images/back-image.jpeg");
+    background-size: cover;
+    background-color: #C0C0C0;
+    background-blend-mode: screen;
+    padding: 50px;
+}
+
+.inside-text {
+    font-size: 1.3rem;
+}
+
+.education-column {
+    padding: 3% 2%;
+}
+
+.education-box {
+    margin: 50px 0;
+}
+
+
+/*Skills*/
+#skills {
+    background-image: url("../images/back.jpeg");
+    background-size: cover;
+    background-color: #D3D3D3;
+    background-blend-mode: soft-light;
+    padding: 4% 4%;
+    position: relative;
+}
+
+.language-box {
+    text-align: center;
+    padding: 3%;
+}
+
+.skill-icon {
+    font-size: 3rem;
+}
+
+.skill-box {
+    margin: 40px 0;
+}
+
+.h3-name {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    color: #2F4F4F;
+}
+
+/*Projects*/
+#project {
+    background-color: gray;
+    padding: 7% 7%;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+.fort-img {
+    width: 50%;
+    /*border-radius: 100%;*/
+    margin: 20px;
+}
+
+.app-img {
+    width: 20%;
+    height: 20%;
+    float: left;
+}
+
+.project-title {
+    color: powderblue;
+}
+
+.app-div {
+    margin-left: 10px;
+}
+
+.project-text {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: left;
+    width: 50%;
+    margin: 30px auto 60px auto;
+    text-align: left;
+}
+
+.carousel-item {
+    padding: 4% 0;
+}
+
+/*Contact*/
+.bottom-container {
+    background-color: lightgray;
+    padding: 50px 0 20px;
+}
+
+.copyright {
+    color: darkcyan;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.contact-icon {
+    text-decoration: none;
+    color: #66BFBF;
+    margin: 10px 20px;
+    font-size: 2rem;
+}
+
+.contact-icon:hover {
+    color: #fff;
+
+}
+
+footer {
+    color: #fff;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+}
+
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #2c3e51;
+}
+
+footer .footer-col {
+    margin-bottom: 50px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #233140;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
